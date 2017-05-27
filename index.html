@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>2048</title>
+<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<style>
+	*{margin:0px; padding:0px;}
+	body{margin:0px; padding:0px; font-family:"仿宋", "华文仿宋", "华文宋体"; background-color:#FBF8EF;}
+	@media screen and (max-width: 480px) {
+	.container{color:#776E65; text-align:center; padding-top:120px; width:360px; margin:0 auto;}
+	table{border-radius:10px; background:#BBADA0; margin:0 auto; font-family:"Helvetica", Arial, sans-serif; width:150px; font-size:40px;}
+	.t1, .t2, .t3, .t4{width:50%; height:45px;border-radius:10px; background:#CDC1B3; font-weight:bold;}
+	.font1{ font-size:56px; color:#8F7A66; font-weight: bold; margin:60px 50px;}		
+	}
+	
+	@media screen and (min-width: 480px) and (max-width: 1600px) {
+	.container{color:#776E65;text-align:center; padding-top:120px; width:700px; margin:0 auto;}
+	table{border-radius:20px; background:#BBADA0; margin:0 auto; font-family:"Helvetica", Arial, sans-serif; width:240px; font-size:80px;}
+	.t1, .t2, .t3, .t4{width:50%; height:45px;border-radius:20px; background:#CDC1B3; font-weight:bold;}
+	.font1{ font-size:100px; color:#8F7A66; font-weight: bold; margin:120px 112px;}
+	}
+	
+	@media screen and (min-width: 1600px) and (max-width: 2560px) {
+	.container{color:#776E65; text-align:center; padding-top:220px; width:700px; margin:0 auto;}
+	table{border-radius:20px; background:#BBADA0; margin:0 auto; font-family:"Helvetica", Arial, sans-serif; width:240px; font-size:80px;}
+	.t1, .t2, .t3, .t4{width:50%; height:45px;border-radius:20px; background:#CDC1B3; font-weight:bold;}
+	.font1{ font-size:100px; color:#8F7A66; font-weight: bold; margin:100px 112px;}	}
+	
+	@media screen and (min-width: 2560px) {	
+	.container{color:#776E65; text-align:center; padding-top:120px; width:700px; margin:0 auto;}
+	table{border-radius:20px; background:#BBADA0; margin:0 auto; font-family:"Helvetica", Arial, sans-serif; width:240px; font-size:80px;}
+	.t1, .t2, .t3, .t4{width:50%; height:45px;border-radius:20px; background:#CDC1B3; font-weight:bold;}
+	.font1{ font-size:100px; color:#8F7A66; font-weight: bold; margin:100px 112px;}	
+	}	
+</style>
+<script>
+	window.onload=function(){
+	   window.setTimeout(skip,3000);
+	}
+	function skip(){
+		window.location.href="2048.html";	
+	}
+</script>
+</head>
+
+<body>
+<div class="container">
+    <table border="0" cellspacing="15" cellpadding="15">
+      <tr>
+        <td class="t1">2</td>
+        <td class="t2">0</td>
+      </tr>
+      <tr>
+        <td class="t3">4</td>
+        <td class="t4">8</td>
+      </tr>
+    </table>
+    <div class="loader font1">
+      <span>L</span>
+      <span class="span2">O</span>
+      <span class="span3">A</span>
+      <span class="span4">D</span>
+      <span class="span5">I</span>
+      <span class="span6">N</span>
+      <span class="span7">G</span>
+    </div>
+</div><!--[container]end-->
+</body>
+</html>

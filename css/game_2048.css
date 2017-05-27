@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 480px) {
+  td{ border-color:#BBADA0; color:#776E65; font-weight:bold; border-radius:5px; font-family:Verdana, Geneva, sans-serif; height:65px; font-size:32px}
+  .container{max-width:768px; margin:0 auto;/* border:1px solid red;*/ margin:0px 10px;}
+  .game_title{font-size:48px; color:#776E65; font-weight:bold;}
+  .game_head{padding:0px;}/*每个分辨率下注意这个*/
+  .head_bottom{padding:15px 0px; /*border:1px solid red;*/ margin:10px 0px; position:relative;}
+  .game_performance{float:right; background-color:#BDACA2; font-size:12px;color:#FFF; border-radius:5px; padding:5px 10px; margin:10px 0px 10px 10px; text-align:center;}
+  .game_performance span{font-size:14px; font-weight:500;}
+  .game_best_performance{float:right; background-color:#BDACA2; font-size:12px; color:#FFF; border-radius:10px; padding:5px 10px;  margin:10px 0px 10px 0px; text-align:center;}
+  .game_best_performance span{font-size:14px; font-weight:500;}
+  .game_guide_message{font-size:15px; color:#776E65;/* border:1px solid red;*/ position:absolute; left:0px; bottom:0px;}
+  .game_reset{ right:0px; bottom:0px; position:absolute;}
+  .game_btn{padding:5px 5px; background-color:#8F7A66; font-size:12px; border-radius:5px; color:#FFF;}
+  .game_footer{height:40px;/* border:1px solid red;*/ position: relative; text-align:center;}
+  .game_sound, .game_share, .game_revocation, .game_save, .game_picture{ margin:5px 3px;}
+  .game_performance_add{font-size:14px; font-weight:bold; color:#776E65; opacity:0.0; margin:0 auto; margin-top:-16px;}
+}
+@media screen and (min-width: 480px) and (max-width: 1600px) {
+	td{ border-color:#BBADA0; color:#776E65; font-weight:bold; border-radius:7px; font-family:Verdana, Geneva, sans-serif; height:100px; font-size:38px}
+	.container{max-width:500px; margin:0 auto;/* border:1px solid red;*/}
+	.game_title{font-size:58px; color:#776E65; font-weight:bold;}
+	.game_head{padding:10px 0px;}
+	.head_bottom{padding:15px 0px; /*border:1px solid red;*/ margin:5px 0px; position:relative;}
+	.game_performance{float:right; background-color:#BDACA2; font-size:14px;color:#FFF; border-radius:7px; padding:10px 20px; margin:5px 0px 5px 5px; text-align:center;}
+	.game_performance span{font-size:20px; font-weight:500;}
+	.game_best_performance{float:right; background-color:#BDACA2; font-size:14px; color:#FFF; border-radius:7px; padding:10px 20px;  margin:5px 0px 5px 5px; text-align:center;}
+	.game_best_performance span{font-size:20px; font-weight:500;}
+	.game_guide_message{font-size:20px; color:#776E65;/* border:1px solid red;*/ position:absolute; left:0px; bottom:0px;}
+	.game_reset{ right:10px; bottom:0px; position:absolute;}
+	.game_btn{padding:5px 10px; background-color:#8F7A66; font-size:14px; border-radius:7px; color:#FFF;}
+	.game_footer{height:50px;/* border:1px solid red;*/ position: relative; text-align:center;}
+	.game_sound, .game_share, .game_revocation, .game_save, .game_picture{ margin:10px 5px;}
+	.game_performance_add{font-size:18px; font-weight:bold; color:#776E65; opacity:0.0; margin:0 auto; margin-top:-22px;}
+}
+@media screen and (min-width: 1600px) and (max-width: 2560px) {
+	td{ border-color:#BBADA0; color:#776E65; font-weight:bold; border-radius:7px; font-family:Verdana, Geneva, sans-serif; height:150px; font-size:48px}
+	.container{max-width:700px; margin:0 auto;/* border:1px solid red;*/ margin-top:0px;}
+	.game_title{font-size:68px; color:#776E65; font-weight:bold;}
+	.game_head{padding:15px 0px;}
+	.head_bottom{padding:20px 0px; /*border:1px solid red;*/ margin:10px 0px; position:relative;}
+	.game_performance{float:right; background-color:#BDACA2; font-size:14px;color:#FFF; border-radius:7px; padding:10px 30px; margin:10px 0px 10px 10px; text-align:center;}
+	.game_performance span{font-size:20px; font-weight:500;}
+	.game_best_performance{float:right; background-color:#BDACA2; font-size:14px; color:#FFF; border-radius:7px; padding:10px 30px;  margin:10px 0px 10px 5px; text-align:center;}
+	.game_best_performance span{font-size:20px; font-weight:500;}
+	.game_guide_message{font-size:24px; color:#776E65;/* border:1px solid red;*/ position:absolute; left:0px; bottom:0px;}
+	.game_reset{ right:55px; bottom:0px; position:absolute;}
+	.game_btn{padding:10px 15px; background-color:#8F7A66; font-size:14px; border-radius:7px; color:#FFF;}
+	.game_footer{height:80px;/* border:1px solid red;*/ position: relative; text-align:center;}
+	.game_sound, .game_share, .game_revocation, .game_save, .game_picture{ margin:20px 25px;}
+	.game_performance_add{font-size:20px; font-weight:bold; color:#776E65; opacity:0.0; margin:0 auto; margin-top:-22px;}
+}
+@media screen and (min-width: 2560px) {			
+	td{ border-color:#BBADA0; color:#776E65; font-weight:bold; border-radius:10px; font-family:Verdana, Geneva, sans-serif; height:215px; font-size:64px}
+	.container{max-width:925px; margin:0 auto;/* border:1px solid red;*//*-webkit-transform: scale(0.75);*/ margin-top:0px;}
+	.game_title{font-size:98px; color:#776E65; font-weight:bold;}
+	.game_head{padding:30px 0px;}
+	.head_bottom{padding:30px 0px; /*border:1px solid red;*/ margin:10px 0px; position:relative;}
+	.game_performance{float:right; background-color:#BDACA2; font-size:24px;color:#FFF; border-radius:10px; padding:15px 30px; margin:10px 0px 10px 10px; text-align:center;}
+	.game_performance span{font-size:28px; font-weight:500;}
+	.game_best_performance{float:right; background-color:#BDACA2; font-size:24px; color:#FFF; border-radius:10px; padding:15px 50px;  margin:10px 0px 10px 5px; text-align:center;}
+	.game_best_performance span{font-size:28px; font-weight:500;}
+	.game_guide_message{font-size:36px; color:#776E65;/* border:1px solid red;*/ position:absolute; left:0px; bottom:0px;}
+	.game_btn{padding:10px 15px; background-color:#8F7A66; font-size:28px; border-radius:10px; color:#FFF;}
+	.game_footer{height:100px;/* border:1px solid red;*/ position: relative; text-align:center;}
+	.game_sound, .game_share, .game_revocation, .game_save, .game_picture{ margin:30px 25px;}
+	.game_performance_add{font-size:30px; font-weight:bold; color:#776E65; opacity:0.0; margin:0 auto; margin-top:-33px;}
+}
+*{margin:0px; padding:0px;}
+/*去除鼠标点击后的虚线onfocus="this.blur()"*/
+a,input,button{ outline:none; }
+::-moz-focus-inner{border:0px;}
+body{margin:0px; padding:0px; font-family:"仿宋", "华文仿宋", "华文宋体"; background-color:#FBF8EF;}
+table{ background-color:#BBADA0;border-radius:7px; width:100%;}
+.game_body{text-align:center; /*padding:20px;*/}
+.head_top{margin:10px 0px; /*border:1px solid red;*/}
+.game_btn:hover{opacity:0.8}
+
+.game_performance_add_animation{
+	animation:performance 1.5s;
+	-moz-animation:performance 1.5s; /* Firefox */
+	-webkit-animation:performance 1.5s; /* Safari and Chrome */
+	-o-animation:performance 1.5s; /* Opera */
+	}		
+	@keyframes performance
+	{
+	0%   {transform:translateY(0px); opacity:1.0;}
+	100% {transform:translateY(-80px); opacity:0.0;}
+	}
+	
+	@-moz-keyframes performance /* Firefox */
+	{
+	0%   {transform:translateY(0px); opacity:1.0;}
+	100% {transform:translateY(-80px); opacity:0.0;}
+	}
+	
+	@-webkit-keyframes performance /* Safari and Chrome */
+	{
+	0%   {transform:translateY(0px); opacity:1.0;}
+	100% {transform:translateY(-80px); opacity:0.0;}
+	}
+	
+	@-o-keyframes performance /* Opera */
+	{
+	0%   {transform:translateY(0px); opacity:1.0;}
+	100% {transform:translateY(-80px); opacity:0.0;}
+	}
+	
+/*禁止鼠标选择文字*/
+.cannot_select{
+  -moz-user-select:none;/*火狐*/
+  -webkit-user-select:none;/*webkit浏览器*/
+  -ms-user-select:none;/*IE10*/
+  -khtml-user-select:none;/*早期浏览器*/
+  user-select:none;
+}
+
+.dh{
+	animation:myfirst 0.5s;
+	-moz-animation:myfirst 0.5s; /* Firefox */
+	-webkit-animation:myfirst 0.5s; /* Safari and Chrome */
+	-o-animation:myfirst 0.5s; /* Opera */
+	}
+@keyframes myfirst
+{
+0%   {
+	transform:scale(0.2,0.2) ;
+	-moz-transform:scale(0.2,0.2) ;
+	-webkit-transform:scale(0.2,0.2) ;
+	-o-transform:scale(0.2,0.2) ;
+	}
+50%  {
+	transform:scale(1.1,1.1) ;
+	-moz-transform:scale(1.1,1.1) ;
+	-webkit-transform:scale(1.1,1.1) ;
+	-o-transform:scale(1.1,1.1) ;
+	}
+100% {
+	transform:scale(1.0,1.0) ;
+	-moz-transform:scale(1.0,1.0) ;
+	-webkit-transform:scale(1.0,1.0) ;
+	-o-transform:scale(1.0,1.0) ;
+	}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {
+	transform:scale(0.2,0.2) ;
+	-moz-transform:scale(0.2,0.2) ;
+	-webkit-transform:scale(0.2,0.2) ;
+	-o-transform:scale(0.2,0.2) ;
+	}
+50%  {
+	transform:scale(1.1,1.1) ;
+	-moz-transform:scale(1.1,1.1) ;
+	-webkit-transform:scale(1.1,1.1) ;
+	-o-transform:scale(1.1,1.1) ;
+	}
+100% {
+	transform:scale(1.0,1.0) ;
+	-moz-transform:scale(1.0,1.0) ;
+	-webkit-transform:scale(1.0,1.0) ;
+	-o-transform:scale(1.0,1.0) ;
+	}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {
+	transform:scale(0.2,0.2) ;
+	-moz-transform:scale(0.2,0.2) ;
+	-webkit-transform:scale(0.2,0.2) ;
+	-o-transform:scale(0.2,0.2) ;
+	}
+50%  {
+	transform:scale(1.1,1.1) ;
+	-moz-transform:scale(1.1,1.1) ;
+	-webkit-transform:scale(1.1,1.1) ;
+	-o-transform:scale(1.1,1.1) ;
+	}
+100% {
+	transform:scale(1.0,1.0) ;
+	-moz-transform:scale(1.0,1.0) ;
+	-webkit-transform:scale(1.0,1.0) ;
+	-o-transform:scale(1.0,1.0) ;
+	}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {
+	transform:scale(0.2,0.2) ;
+	-moz-transform:scale(0.2,0.2) ;
+	-webkit-transform:scale(0.2,0.2) ;
+	-o-transform:scale(0.2,0.2) ;
+	}
+50%  {
+	transform:scale(1.1,1.1) ;
+	-moz-transform:scale(1.1,1.1) ;
+	-webkit-transform:scale(1.1,1.1) ;
+	-o-transform:scale(1.1,1.1) ;
+	}
+100% {
+	transform:scale(1.0,1.0) ;
+	-moz-transform:scale(1.0,1.0) ;
+	-webkit-transform:scale(1.0,1.0) ;
+	-o-transform:scale(1.0,1.0) ;
+	}
+}
