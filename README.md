@@ -4,3 +4,27 @@
 
 为了确保最佳使用体验，请使用支持 CSS3 的浏览器打开
 有音效，要用耳机
+
+## 有关截图
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219214604.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219214704.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219214857.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219214924.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219214934.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215005.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215016.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215202.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215252.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215252.png)
+
+![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215616.png)
