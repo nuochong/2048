@@ -25,6 +25,4 @@
 
 ![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215252.png)
 
-![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215252.png)
-
 ![An image](https://raw.githubusercontent.com/nuochong/2048/master/img/QQ截图20151219215616.png)
